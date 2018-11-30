@@ -14,7 +14,7 @@ namespace DAO
 
         public DataProvider()
         {
-            string cnStr = "Server = .; Database = HocSinhCap3; Integrated security = true;";
+            string cnStr = "Server = .\\SqlExpress; Database = HocSinhCap3; Integrated security = true;";
             cn = new SqlConnection(cnStr);
         }
 

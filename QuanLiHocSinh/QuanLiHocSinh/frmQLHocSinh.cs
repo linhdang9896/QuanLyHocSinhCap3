@@ -42,7 +42,9 @@ namespace QuanLiHocSinh
             {
                 this.Enabled = true;
             }
-
+            dataGridView1.DataSource = hsbus.getStudents();
+            this.dataGridView1.Columns["TinhTrang"].Visible = false;
+            this.dataGridView1.Columns["LopHienTai"].Visible = false;
             cbKhoaHoc.DropDownStyle = ComboBoxStyle.DropDownList;
             
             DataTable dt;
