@@ -289,6 +289,7 @@ namespace QuanLiHocSinh
                 tvDanhSachLop.Nodes[0].Nodes[2].Nodes.Add(dr["TenLop"].ToString());
 
             }
+            tvDanhSachLop.Sort();
             tvDanhSachLop.ExpandAll();
         }
 
